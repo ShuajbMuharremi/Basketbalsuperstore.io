@@ -1,0 +1,179 @@
+/* shuajbmuharrem1.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('ja-morant-dunk-brooklyn-nets-game.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  background-color: #333;
+}
+
+header h1 {
+  color: #fff;
+  margin: 0;
+  margin-left: 10px;
+}
+
+header img {
+  max-height: 50px;
+}
+
+nav {
+  background-color: #1e1e1e;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 1.2em;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #555;
+}
+
+.sh-m-hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.sh-m-hero h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.sh-m-container {
+  padding: 20px;
+}
+
+h2 {
+  color: #ff6600;
+}
+
+.sh-m-featured-products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.sh-m-featured-product {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px 0;
+  width: 300px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sh-m-featured-product:hover {
+  transform: scale(1.05);
+}
+
+.sh-m-featured-product img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.sh-m-featured-product-body {
+  padding: 15px;
+}
+
+.sh-m-featured-product h3 {
+  color: #ff6600;
+}
+
+.sh-m-contact-info,
+.sh-m-social-media {
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+}
+button {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff8533;
+}
+
+/* Responsive styles for screens up to 1080p resolution */
+@media only screen and (max-width: 1920px) {
+  header {
+    padding: 15px;
+  }
+
+  header h1 {
+    margin-left: 5px;
+    font-size: 1.5em;
+  }
+
+  nav a {
+    padding: 10px 15px;
+    font-size: 0.9em;
+  }
+
+  .sh-m-hero {
+    padding: 40px 10px;
+  }
+
+  .sh-m-container {
+    padding: 15px;
+  }
+
+  .sh-m-featured-product {
+    width: 300px; /* Adjust back to the original width */
+    margin: 20px 10px; /* Optional: Adjust margin for better spacing */
+  }
+
+  .sh-m-featured-product img {
+    width: 100%; /* Make the image responsive to its container */
+    height: auto; /* Allow the height to adjust based on the content */
+    max-height: 100%; /* Ensure images don't exceed the container height */
+  }
+
+  .sh-m-contact-info,
+  .sh-m-social-media {
+    margin-top: 15px;
+  }
+
+  footer {
+    padding: 10px;
+  }
+
+  button {
+    padding: 8px 12px;
+    font-size: 0.9em;
+  }
+}

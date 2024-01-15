@@ -1,0 +1,155 @@
+/* Add your styles for AllProducts page */
+body {
+    background-image: url('ja-morant-dunk-brooklyn-nets-game.jpg');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+    align-items: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #fff; /* Text color for the logo */
+    margin: 0;
+    margin-left: 10px; /* Add margin to separate the logo from the text */
+}
+
+header img {
+    max-height: 50px; /* Adjust the max height of the logo as needed */
+    /* You can also add other styles, such as margin, padding, etc. */
+}
+
+nav {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1.2em;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #555;
+}
+
+.sh-m-container {
+    padding: 20px;
+}
+
+h2 {
+    color: #ff6600;
+}
+
+.sh-m-all-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.sh-m-product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px 0;
+    width: 300px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sh-m-product:hover {
+    transform: scale(1.05);
+}
+
+.sh-m-product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+.sh-m-product-body {
+    padding: 15px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.sh-m-contact-info,
+.sh-m-social-media {
+    margin-top: 20px;
+}
+
+.sh-m-contact-info h3,
+.sh-m-social-media h3 {
+    color: #ff6600;
+}
+
+/* Responsive styles for screens up to 1080p resolution */
+@media only screen and (max-width: 1920px) {
+    header {
+      padding: 15px;
+    }
+  
+    header h1 {
+      margin-left: 5px;
+      font-size: 1.5em;
+    }
+  
+    nav a {
+      padding: 10px 15px;
+      font-size: 0.9em;
+    }
+  
+    .sh-m-hero {
+      padding: 40px 10px;
+    }
+  
+    .sh-m-container {
+      padding: 15px;
+    }
+  
+    .sh-m-featured-product {
+      width: 300px; /* Adjust back to the original width */
+      margin: 20px 10px; /* Optional: Adjust margin for better spacing */
+    }
+  
+    .sh-m-featured-product img {
+      width: 100%; /* Make the image responsive to its container */
+      height: auto; /* Allow the height to adjust based on the content */
+      max-height: 100%; /* Ensure images don't exceed the container height */
+    }
+  
+    .sh-m-contact-info,
+    .sh-m-social-media {
+      margin-top: 15px;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  
+    button {
+      padding: 8px 12px;
+      font-size: 0.9em;
+    }
+  }
+  
